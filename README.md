@@ -9,6 +9,14 @@ Uses a discounted cash flow model to assess the rental income valuation of a pro
 * Maintenance Costs = 1% of property value (annually)
 * Property Management Costs = 10% of rental income
 
+## Contents
+
+### Data Scraper
+
+### Data Cleaning
+
+### Data Analysis
+
 ## Data Sources
-Rental Data - Rentfaster
-MLS Listing Data - MLS Portal
+Rental Data - Rentfaster www.rentfaster.com
+MLS Listing Data - MLS Portal 

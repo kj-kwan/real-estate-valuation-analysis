@@ -1,8 +1,10 @@
 # Real Estate Valuation Analysis
 Analyzes real estate property listings data and rental data to estimate DCF (Discounted Cash Flow) value of a property.
 
+<b>Note:</b> Data setup is currently specific to Calgary, Alberta, Canada. Data structure is based on the MLS site.
+
 ## Valuation Methodology
-Uses a discounted cash flow model to assess the rental income valuation of a property.
+Uses a discounted cash flow model to assess the rental income valuation of a property. 
 
 ## Assumptions (Default Values)
 * Discount rate = 10%

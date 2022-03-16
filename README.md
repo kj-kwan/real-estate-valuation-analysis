@@ -6,10 +6,16 @@ Analyzes real estate property listings data and rental data to estimate DCF (Dis
 ## Valuation Methodology
 Uses a discounted cash flow model to assess the rental income valuation of a property. 
 
-## Assumptions (Default Values)
+### Assumptions (Default Values)
 * Discount rate = 10%
-* Maintenance Costs = 1% of property value (annually)
+* Property Maintenance Costs = 1% of property value (annually)
 * Property Management Costs = 10% of rental income
+* Property Tax --> As stated in MLS listing
+* Interest Rate = 5%
+* Amortization Duration = 25 yrs
+
+### Calculations
+* Cash Flow = Rental Income - Property Maintenance Costs - Condo Fees (if applicable) - Property Tax - Property Management Fees - Mortgage Payments
 
 ## Contents
 
@@ -24,4 +30,4 @@ Data analyses were combined to provide a valuation based on average rent expecte
 
 ## Data Sources
 Rental Data - Rentfaster www.rentfaster.com <br>
-MLS Listing Data - MLS Portal 
+MLS Listing Data - MLS Portal

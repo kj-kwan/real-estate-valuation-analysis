@@ -17,6 +17,9 @@ Uses a discounted cash flow model to assess the rental income valuation of a pro
 ### Calculations
 * Cash Flow = Rental Income - Property Maintenance Costs - Condo Fees (if applicable) - Property Tax - Property Management Fees - Mortgage Payments
 
+### Rent Estimation
+Rental estimation of a property is based geographic groupings using property type / # of beds/ # of baths as a composite key. The average rent/SqFt is then calculated for each unique cluster and the rent of a listed property is calculated by multiplying the corresponding cluster rent/SqFt with the listing's Liv Area SqFt attribute.
+
 ## Contents
 
 ### Data Scraper
